@@ -1,6 +1,6 @@
 const apiKey = '08a91a4696a64ad5a932a282fceb99fc'; // Your API key
 const apiUrl = 'https://api.football-data.org/v4/matches'; // Endpoint for matches
-const proxyUrl = 'https://cors-anywhere.herokuapp.com/'; // Proxy server URL
+const proxyUrl = 'https://cors-proxy.fly.dev/'; // Alternative proxy server URL
 
 fetch(proxyUrl + apiUrl, { // Use the proxy URL
     headers: {
